@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INDEED</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+
+            
+            .flex-container{
+                display: flex;
+                height: 72.8px;
+                width: 1519.2px;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 0.8px solid rgb(228, 226, 224);
+                
+            }
+
+            .logo-indeed{
+                
+                width: 112px;
+                height: 28px;
+                cursor: pointer;
+                padding-top: 22px;
+                padding-bottom: 22px;
+                padding-left: 24px;
+                padding-right: 16px;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .div-flower{
+                align-content: center;
+                justify-content: center;
+            }
+
+            .logo-flower{
+                
+                height: 48px;
+                width: 48px;
+                cursor: pointer;
+                padding-top: 15px;
+                
+            }
+
+            a{
+                text-decoration: none;
+                color: rgb(45, 45, 45);
+                font-size: 14px;
+                font-family: Noto Sans;
+                padding-top: 16px;
+                margin-left: 50px;
+            }
+
+            .a-find-jobs,.a-company-reviews,.a-salary-guide{
+                margin-left: 0%;
+                cursor: pointer;
+                font-size: 14px;
+                height: 52px;
+                width: 59.1875;
+                padding-top: 16;
+                height: 52px;
+                align-items: center;
+            }
+
+            
+
+            .div-find-jobs,.div-company-reviews,.div-salary-guide{
+                padding-top: 33px;
+                align-items: center;
+                height: 38px;
+            }
+
+
+            .div-salary-guide{
+                padding-right: 582.450px;
+            }
+
+            .div-find-jobs:hover,.div-company-reviews:hover,.div-salary-guide:hover{
+                border-bottom-color: rgb(37, 87, 167);
+                border-bottom-style: solid;
+                border-bottom-width: 1.6px;
+            }
+
+           
+
+            .flex-logos{
+                display: flex;
+            }
+
+            .msg-logo{
+                width: 20px;
+                height: 20px;
+                padding-top: 4px;
+            }
+
+            .a-logo{
+                font-size: 20px;
+                margin-left: 1px;
+                padding-top: 1px;
+            }
+            
+
+            .fa-solid fa-user{
+                padding:10px;
+            }
+            .div-three-logo{
+                display: flex;
+                
+            }
+
+            .first-logos{
+                align-items: center;
+                border-radius: 8px;
+                cursor: pointer;
+                justify-content: center;
+                padding-left: 5px;
+                padding-right: 37px;
+                padding-top: 5px;
+                padding-bottom: 0px;
+                
+            }
+
+            .a-msg-logo{
+                padding-left: 5px;
+                margin-left: 5px;
+                padding-top: 1px;
+            }
+
+            .employers{
+                font-family: Noto Sans;
+                font-size: 14px;
+                align-items: center;
+                padding-left: 12px;
+                padding-right: 12px;
+                justify-content: center;
+                padding-bottom: 34px;
+            }
+
+
+            .employers-post{
+                align-items: center;
+                justify-content: center;
+            }
+
+
+            .for-slash{
+                background-color: rgb(212, 210, 208);
+                display: block;
+                box-sizing: border-box;
+                height: 24px;
+                width: 1px;
+                margin-top: 12px;
+                margin-right: 1px;
+            }
+
+
+            .after-header{
+                display: flex;
+                
+                justify-content: center;
+                padding-top: 28px;
+                padding-bottom: 28px;
+                width: 1519.2px;
+            }
+
+            .div-search-bar-flex{
+                display: flex;
+                justify-content: center;
+                height: 100px;
+            }
+
+            .search-bar-empty-flex{
+                width: 320px;
+                height: 100px;
+            }
+
+            .search-job-title,.search-city-state{
+                border-color: rgb(148, 148, 148);
+                border-radius: 8px;
+                border: 0.8px;
+                border-style: solid;
+                align-items: center;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                width: 354.4px;
+                margin-right: 15px;
+                line-height: 18px;
+                display: inline-block;
+            }
+
+            .div-find-job-button{
+                padding-top: 5px;
+            }
+
+
+            .find-job-button{
+                align-items: flex-start;
+                background-attachment: scroll;
+                background-color: rgb(37, 87, 167);
+                border-color: rgba(0,0,0,0);
+                background-origin: padding-box;
+                border-radius: 8px;
+                border-width: 0.8px;
+                border-bottom-style: solid;
+                box-sizing: border-box;
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+                display: block;
+                font-size: 14px;
+                font-stretch: 100%;
+                font-style: normal;
+                font-weight: 700;
+                height: 43.6px;
+                line-height: 18px;
+                padding-left: 16px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-right: 16px;
+                text-align: center;
+            }
+
+            .flex-both-searching{
+                display: flex;
+                height: 53px;
+            }
+
+            .div-flex-text-input-what,.div-flex-text-input-where{
+                display: flex;
+            }
+
+            .label-what-where{
+                cursor: default;
+                font-size: 14px;
+                font-weight: 700;
+                height: 18px;
+            }
+
+            .text-input-search-job-title,.text-input-search-city-state{
+                width: 281px;
+                margin-left: 10px;
+                border-color: white;
+                border-block: none;
+                border-left-style: none;
+                font-family: Noto,Sans;
+                
+            }
+
+            .text-input-search-job-title{
+                width: 281px;
+            }
+
+            .text-input-search-city-state{
+                margin-left:5px;
+            }
+
+            .parent-employer-div{
+                display: flex;
+                justify-content: center;
+                height: 65px;
+                align-items: center;
+            }
+
+            .employers-link{
+                color: rgb(37, 87, 167);
+                font-weight: 700;
+                cursor: pointer;
+                font-size: 16px;
+                height: auto;
+                line-height: 26.72px;
+                text-align: center;
+                text-decoration-thickness: auto;
+            }
+            
+            .your-next-hire{
+                box-sizing: border-box;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26.72px;
+                text-align: center;
+            }
+
+            .flex-three{
+                display: flex;
+                height: 60px;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 1px solid rgb(228, 226, 224);
+            }
+
+            
+            .button-job-feed,.button-recent-searches{
+                width: 200px;
+                height: 60px;
+                background-color: white;
+                border: 0;
+                cursor: pointer;
+                border-bottom-color: rgb(37, 87, 167);
+                border-bottom-style: solid;
+                border-bottom-width: 4px;
+                font-family: Noto Sans;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                text-align: center;
+            }
+
+            .div-table{
+                height: 208px;
+                padding-bottom: 97px;
+                padding-left: 24px;
+                padding-right: 24px;
+                width: 1471.2px;
+                border-bottom: 1px solid;
+                border-bottom-color: rgb(228, 226, 224);
+            }
+
+            .ul{
+                background-color: white;
+                display: block;
+                font-family: Noto sans;
+                font-size: 13px;
+                height: 208px;
+                line-height: 19.5;
+                list-style-type: disc;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-inline-start: 16px;
+                width: 608px;
+                justify-content: center;
+                align-items: center;
+                margin-right: 0px;
+            }
+            li{
+                width: 576px;
+                align-items: center;
+                border-bottom-color: rgb(228, 226, 224);
+                border-bottom-style: solid;
+                border-bottom-width: 0.8px;
+                display: flex;
+                font-size: 13px;
+                height: 64px;
+                line-height: 19.5px;
+                min-height: 64;
+                text-align: left;
+            }
+            .child-table{
+                margin-left: auto;
+                margin-right: auto;
+                width: 411px;
+            }
+
+            .flex-list-main{
+                
+                width: 100%;
+            }
+            
+            
+
+            .div-list-button{
+                float: right;
+                margin-top: -27px;
+                
+
+            }
+
+            .list-button{
+                background-color: rgb(255, 255, 255);
+                border-color: rgb(255, 255, 255);
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                font-stretch: 100%;
+                font-weight: 700;
+                height: 44px;
+            }
+
+            .number-span{
+                color: rgb(157, 43, 107);
+                cursor: pointer;
+                font-size: 13px;
+                font-weight: 400;
+                
+            }
+
+            .balglore-span{
+                color: rgb(118, 118, 118);
+                cursor: pointer;
+            }
+
+            .text-span{
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+
+            .text-span:hover{
+                text-decoration: underline;
+
+            }
+            
+            .balglore-span:hover{
+                text-decoration: underline;
+
+            }
+            
+            .number-span:hover{
+                text-decoration: underline;
+            }
+
+
+            .div-footer-flex{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                font-size: 14px;
+                line-height: 23.38px;
+                height: 121px;
+                width: 1215.2px;
+            }
+
+            .ul-footer-flex{
+                display: flex;
+                box-sizing: border-box;
+                flex-basis: auto;
+                flex-shrink: 1;
+                flex-grow: 1;
+                flex-wrap: wrap;
+                font-size: 14px;
+                height: 56px;
+                line-height: 23.38;
+                list-style-position: outside;
+                margin-inline-end: 25px;
+                width: 1215.2px;
+                align-items: baseline;
+            }
+
+
+            .footer-list{
+                display: list-item;
+                font-size: 14px;
+                height: 28px;
+                line-height: 28px;
+                margin-right: 24px;
+                text-align: left;
+            
+                width: auto;
+                list-style-type: none;
+                margin-right: 24px;
+                border-bottom-style: none;
+            }
+
+            .footer-link{
+                box-sizing: border-box;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 400;
+                height: auto;
+                line-height: 28px;
+                text-align: left;
+                width: auto;
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .footer{
+                font-size: 14px;
+                font-weight: 400;
+                height: 137px;
+                line-height: 23.38;
+                padding-bottom: 8px;
+                padding-top: 8px;
+                padding-left: 16px;
+                padding-right: 288px;
+                width: 1519.2px;
+            }
+
+            .span-logos{
+                box-sizing: border-box;
+                justify-content: flex-end;
+                position: absolute;
+
+            }
+            
+
+
+        </style>
+    </head>
+    <body style="margin: 0%;">
+        <header>
+
+            <div class="flex-container">
+                <div class="div-flower">
+                    <img class="logo-indeed" src="5841c49ea6515b1e0ad75aa6.png">
+                </div>
+                <div>
+                    <img class="logo-flower" src="ukraine_support.7ad2b5d444bc427dbc5d.png">
+                </div>
+                <div class="div-find-jobs">
+                    <a class="a-find-jobs" href="#">Find jobs</a>
+                </div>
+                <div class="div-company-reviews">
+                    <a class="a-company-reviews" href="#">Company reviews</a>
+                </div>
+                <div class="div-salary-guide">
+                    <a class="a-salary-guide" href="#">Salary Guide</a>
+                </div>
+                
+
+                <div class="flex-logos">
+                    <div class="div-three-logo">
+                        <div class="first-logos">
+                            <a class="a-msg-logo" href="#"><img class="msg-logo" src="msg-logo.png" ></a>
+                        </div>
+                        <div class="first-logos">
+                            <a class="a-logo" href="#"><i class="fa-solid fa-bell"></i></a>
+                        </div>
+                        <div class="first-logos">
+                            <a class="a-logo" href="#"><i class="fa-solid fa-user"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                
+                <div class="employers-post">
+                    <div class="for-slash"></div>
+                    <div>
+                        <p class="employers">Employers / Post Job</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+
+
+        <div class="after-header"></div>
+
+
+        <div class="div-search-bar-flex">
+            
+            <div class="flex-both-searching">
+                <div class="div-flex-text-input-what">
+                    <div class="search-job-title">
+                        <label class="label-what-where" id="label-input-what" for="text-input-what">what</label>
+                        <input type="text" class="text-input-search-job-title" id="text-input-what" placeholder="Job title keywords, or company" >
+                        <span class="span-logos"><i class="fa-solid fa-location-dot"></i></span>
+                    </div>
+                </div>
+                <div class="div-flex-text-input-where">
+                    <div class="search-city-state">
+                        <label class="label-what-where" id="label-input-where" for="text-input-where">where</label>
+                        <input type="text" class="text-input-search-city-state" id="text-input-where" placeholder="City, state,or pin code" >
+                        <span class="span-logos"><i class="fa-solid fa-magnifying-glass"></i></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="div-find-job-button">
+                <button class="find-job-button">Find jobs</button>
+            </div>
+        </div>
+
+    
+        <div class="parent-employer-div">
+            <div>
+                <a class="employers-link" href="#">Employers: post a job</a>
+            </div>
+            <div>
+                <span class="your-next-hire">&#x2011;Your next hire is here</span>
+            </div>
+        </div>
+
+
+        <div class="flex-three">
+            <button class="button-job-feed"><b>Job feed</b> </button>
+            <button class="button-recent-searches"><b>Recent searches</b></button>
+        </div>
+
+
+        <div class="div-table">
+            <div class="child-table">
+                <ul class="ul">
+                    <li>
+                        <div class="flex-list-main">
+                            <div class="flex-list-column">
+                                <div>
+                                    <span class="text-span">Software Developer Fresher</span>
+                                </div>
+                                <div>
+                                    <span class="number-span">875 new</span>
+                                </div>
+
+                            </div>
+                            <div class="div-list-button">
+                                <button class="list-button"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+
+                        </div>
+                        
+                    </li>
+
+                    <li>
+                        <div class="flex-list-main">
+                            <div class="flex-list-column">
+                                <div>
+                                    <span class="text-span">ust global</span>
+                                </div>
+                                <div>
+                                    <span class="number-span">230 new</span>
+                                    <span class="balglore-span">in Banglore, Karnataka</span>
+                                </div>
+
+                            </div>
+                            <div class="div-list-button">
+                                <button class="list-button"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+
+                        </div>
+                        
+                    </li>
+
+                    <li>
+                        <div class="flex-list-main">
+                            <div class="flex-list-column">
+                                <div>
+                                    <span class="text-span">ust global</span>
+                                </div>
+                                <div>
+                                    <span class="number-span">579 new</span>
+                                </div>
+
+                            </div>
+                            <div class="div-list-button">
+                                <button class="list-button"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+
+                        </div>
+                        
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <footer class="footer">
+            <div class="div-footer-flex">
+                <ul class="ul-footer-flex">
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Career Advice</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Browse Job</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Browse Company</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Salaries</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Indeed Events</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Work at Indeed</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Countries</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">About</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Help Center</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">ESG at Indeed</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Guidlines for Safe Job Search</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Post a Job</a>
+                    </li>
+                </ul>
+
+                <ul class="ul-footer-flex">
+                    <li class="footer-list">
+                        <a class="footer-link" href="#"><i class="fa-regular fa-copyright"></i> 2023 Indeed</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Accesseibility at Indeed</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Privacy Center</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Cookies</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Privay</a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-link" href="#">Terms</a>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+        
+        
+    </body>
+</html>
